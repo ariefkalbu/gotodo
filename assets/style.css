@@ -106,13 +106,13 @@ body{
 .form-content .signup-form{
     width: calc(100% / 2 - 25px);
 }
-form .form-content .title{
+.forms .form-content .title{
     position: relative;
     font-size: 24px;
     font-weight: 500;
     color: #333;
 }
-form .form-content .title::before{
+.forms .form-content .title::before{
     content: '';
     position: absolute;
     left: 0;
@@ -121,13 +121,13 @@ form .form-content .title::before{
     width: 25px;
     background: #7d2ae8;
 }
-form .signup-form .title::before{
+.forms .signup-form .title::before{
     width: 20px;
 }
-form .form-content .input-boxes{
+.forms .form-content .input-boxes{
     margin-top: 30px;
 }
-form .form-content .input-box{
+.forms .form-content .input-box{
     display: flex;
     align-items: center;
     height: 50px;
@@ -155,22 +155,22 @@ form .form-content .input-box{
     color: #7d2ae8;
     font-size: 17px;
 }
-form .form-content .text{
+.forms .form-content .text{
     font-size: 14px;
     font-weight: 500;
     color: #333;
 }
-form .form-content .text a{
+.forms .form-content .text a{
     text-decoration: none;
 }
-form .form-content .text a:hover{
+.forms .form-content .text a:hover{
     text-decoration: underline;
 }
-form .form-content .button{
+.forms .form-content .button{
     color: #fff;
     margin-top: 40px;
 }
-form .form-content .button input{
+.forms .form-content .button input{
     color: #fff;
     background: #7d2ae8;
     border-radius: 6px;
@@ -178,18 +178,18 @@ form .form-content .button input{
     cursor: pointer;
     transition: all 0.4s ease;
 }
-form .form-content .button input:hover{
+.forms .form-content .button input:hover{
     background: #5b13b9;
 }
-form .form-content label{
+.forms .form-content label{
     color:  #5b13b9;
     cursor: pointer;
 }
-form .form-content label:hover{
+.forms .form-content label:hover{
     text-decoration: underline;
 }
-form .form-content .login-text,
-form .form-content .sign-up-text{
+.forms .form-content .login-text,
+.forms .form-content .sign-up-text{
     text-align: center;
     margin-top: 25px;
 }

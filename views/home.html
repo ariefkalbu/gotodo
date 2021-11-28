@@ -1,0 +1,30 @@
+{{ template "layout" . }}
+{{ define "main" }}
+
+<div class="container">
+    <div class="title">Welcome</div>
+    <div class="forms">
+        <div class="form-content">
+    <div class="input-boxes">
+        <div class="input-box">
+           <span class="text"> Nama : </span>  
+           <span class="text"> {{ .Name }} </span>
+        </div>
+        <div class="input-box">
+            <span class="text"> Email : </span>  
+            <span class="text"> {{ .Email }} </span>
+         </div>
+         <div class="input-box">
+             <span class="text"> Login Date : </span>  
+             <span class="text"> {{ .Logindate.Day }}-{{ .Logindate.Month }}-{{ .Logindate.Year }}</span>
+          </div>
+          <div class="input-box">
+              <span class="text"> <a href="/" type="button"> Logout </a> </span>  
+           </div>          
+        </div>
+    </div>
+    
+</div>
+</div>
+
+{{ end }}
